@@ -4,7 +4,7 @@ public class Premios {
 	private int cantidadDePremios;
 	private int costePuntos;
 	
-	public Premios(String concepto, int cantidadDePremios, int costePuntos) {
+	public Premios(String concepto, int costePuntos, int cantidadDePremios) {
 		this.concepto = concepto;
 		this.cantidadDePremios = cantidadDePremios;
 		this.costePuntos = costePuntos;
